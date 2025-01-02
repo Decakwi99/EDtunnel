@@ -1,14 +1,15 @@
-name = "CF-Vless"
+name = "cf-less"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
+
 # wrangler.toml (wrangler v3.88.0^)
 [observability.logs]
 enabled = true
 
 [vars]
 # PROXYIP = "211.230.110.231:50008"
-UUID = "1b6c1745-992e-4aac-8685-266c090e50ea"
+UUID = "7ec1cfc0-9fdc-4aee-aeb0-e2b6a419b1c1"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
